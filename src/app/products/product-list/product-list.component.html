@@ -1,0 +1,6 @@
+<ol class="list-group" *ngFor="let prod of products"> 
+    <app-product-item [product]="prod" (selectedProduct)="selectedProduct($event)"></app-product-item>
+    <!-- <app-product-item [product]="prod"></app-product-item> -->
+
+   
+</ol>

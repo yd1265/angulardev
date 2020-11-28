@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'diallorouting';
+  productSelected;
+
+
+  productSelectioner(event){
+   this.productSelected = event;
+  }
 }
